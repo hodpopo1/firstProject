@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Count of suitcases: ");
         suitcase = scanner.nextInt();
 
-        // חישוב מחיר סופי (תיקון: מזוודות מוכפלות במחיר למזוודה)
+        // חישוב מחיר סופי
         totalPrice = FIRST_PRICE + (km * PRICE_PER_KM) + (suitcase * PRICE_PER_SUITCASE);
 
         // הדפסה של מחיר סופי
